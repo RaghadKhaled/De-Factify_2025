@@ -24,7 +24,6 @@ This repository contains the official code for **Beyond RGB: Exploring Alternati
 ## Environment Setup
 You can set up the Conda environment to get you up and running:
 
-1. 
 ```bash
 
 conda create -n RSID python=3.10 -y
@@ -91,11 +90,11 @@ The parameters values in `eval_robsutness.sh` file are as following:
 - `data_size`: The image size for training. `448` for the `RN50x64`.
 - `num_class`: The class number of testing dataset. (default: 6).
 - `text_option`: `1` for the first approach and `2` for the second approach.
-- `method`: The type of model. `baseline' or  `RGB` or `Lab` or `YCbCr`.
+- `method`: The type of model. `baseline` or  `RGB` or `Lab` or `YCbCr`.
 - `task`: `A` for binary classification, `B` for multi-class classification.
 - `transformation`: The type of the testing dataset. `without` means the original images. `with` means the images that undergoes the perturbations.
 - `ckps`: `The path for the pre-trained model.
-- `task`: `A` for binary classification, `eval_robsutness_NN.py`B` for multi-class classification.
+- `task`: `A` for binary classification, `eval_robsutness_NN.py` for multi-class classification.
 
 
 For `eval_robsutness_NN.py`, add the paths for the featues bank using `real_template`, `SD21_template`, `SDXL_template`, `SD3_template`, `Dalle_template`, `Mid_template` parameters.
