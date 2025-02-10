@@ -108,7 +108,7 @@ TBD
 
 ## Pretrained model
 
-Download all pretrained weight files from [[here](https://drive.google.com/drive/folders/1DgiN4aeTbEdHt9Pre_iQxfVn_KOEhXlJ?usp=drive_link)].
+Download all pretrained weight files from [[here](https://drive.google.com/drive/folders/1eW47Hs18G-81TyOu8LAID0rsw2NS9BRe?usp=sharing)].
 
 
 ## Citation
