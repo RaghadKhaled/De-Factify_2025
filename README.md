@@ -58,9 +58,16 @@ sh train.sh
 
 The parameters values in `train.sh` file are as following:
 
-- `A`: ..... (default: 2).
-- `B`: '...'.
-- `C`: file .py for the first approach and file .py for the second approach.
+- `train_file`: txt file that contains the train img pathes along with the labels. For the first approach use `/annotations/train_set/first_approach.txt` and `/annotations/train_set/second_approach.txt` for the second approach.
+- `val_file`: txt file that contains the val img pathes along with the labels. For the first approach use `/annotations/val_set/first_approach.txt` and `/annotations/val_set/second_approach.txt` for the second approach.
+- `batch_size`: The training batch size. (default: 48).
+- `img_encoder`: The type of image encoder. we use `RN50x64`.
+- `data_size`: The image size for training. `448` for the `RN50x64`.
+- `lr`: The initial learning rate. (default: 1e-5).
+- `epoches`: The training epoches. (default: 100).
+- `num_class`: The class number of training dataset. (default: 6).
+- `text_option`: `1` for the first approach and `2` for the second approach.
+- `color_space`: The type of color spaces. `RGB` or `Lab` or `YCbCr`.
 
 ## Evaluation
 
