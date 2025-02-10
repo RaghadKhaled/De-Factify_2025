@@ -33,6 +33,8 @@ conda activate RSID
 
 git clone https://github.com/RaghadKhaled/De-Factify_2025.git
 
+cd De-Factify_2025
+
 pip install ftfy regex tqdm
 pip install git+https://github.com/openai/CLIP.git
  
