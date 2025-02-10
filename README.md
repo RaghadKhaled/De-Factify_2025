@@ -2,7 +2,7 @@
 
 ## Beyond RGB: Exploring Alternative Color Spaces for Robust Synthetic Image Detection (AAAI 2025)
 
-[[Paper](https://)] [[HuggingFace Model](https://)]
+[[Paper](https://)] | [[HuggingFace Model](https://)]
 
 
 ## Contents
@@ -19,11 +19,12 @@
 
 
 ## Overview
-This repository will contain the official code for the **Beyond RGB: Exploring Alternative Color Spaces for Robust Synthetic Image Detection** submission to **Fourth Workshop on Multimodal Fact-Checking and Hate Speech Detection** Workshop 2025 at AAAI.
-
+This repository contains the official code for **Beyond RGB: Exploring Alternative Color Spaces for Robust Synthetic Image Detection**. This work was submitted to the **Fourth Workshop on Multimodal Fact-Checking and Hate Speech Detection** at AAAI 2025.
 
 ## Environment Setup
 You can set up the Conda environment to get you up and running:
+
+1. 
 ```bash
 
 conda create -n RSID python=3.10 -y
@@ -40,12 +41,16 @@ pip install -r requirements.txt
 
 ```
 
+
+
 ## Datasets
 
-You can download the row data from:
-- Training dataset from [[HuggingFace](https://huggingface.co/datasets/NasrinImp/Defactify4_Train)].
-- Validation dataset from [[HuggingFace](https://huggingface.co/datasets/NasrinImp/Defactify4_Validation)].
-- Custom benchmark from [[Google Drive](https://drive.google.com/drive/folders/1DgiN4aeTbEdHt9Pre_iQxfVn_KOEhXlJ?usp=drive_link)].
+You can download the raw data from the following links:
+
+- Training dataset:  [[HuggingFace - Training](https://huggingface.co/datasets/NasrinImp/Defactify4_Train)].
+- Validation dataset: [[HuggingFace - Validation](https://huggingface.co/datasets/NasrinImp/Defactify4_Validation)].
+- Custom Benchmark: [[Google Drive](https://drive.google.com/drive/folders/1DgiN4aeTbEdHt9Pre_iQxfVn_KOEhXlJ?usp=drive_link)].
+
 
 
 ## Training
@@ -104,7 +109,7 @@ TBD
 
 ## Pretrained model
 
-- Download all pretrained weight files from [[here](https://drive.google.com/drive/folders/1DgiN4aeTbEdHt9Pre_iQxfVn_KOEhXlJ?usp=drive_link)].
+Download all pretrained weight files from [[here](https://drive.google.com/drive/folders/1DgiN4aeTbEdHt9Pre_iQxfVn_KOEhXlJ?usp=drive_link)].
 
 
 ## Citation
