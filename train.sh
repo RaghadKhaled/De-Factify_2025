@@ -1,7 +1,7 @@
 python  /train_first_appraoch.py \
     --model 'RSID' \
-    --train_file '/annotations/?.txt' \
-    --val_file '/annotations/?.txt' \
+    --train_file '/annotations/train_set/first_approach.txt' \
+    --val_file '/annotations/val_set/first_approach.txt' \
     --batch_size 48 \
     --data_size 448 \
     --img_encoder 'RN50x64' \
