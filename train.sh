@@ -1,1 +1,14 @@
-
+python  /train_first_appraoch.py \
+    --model 'RSID' \
+    --train_file '/annotations/?.txt' \
+    --val_file '/annotations/?.txt' \
+    --batch_size 48 \
+    --data_size 448 \
+    --img_encoder 'RN50x64' \
+    --lr 1e-5 \
+    --epoches 100 \
+    --num_class 6 \
+    --weights '/checkpoints/' \
+    --gpu '0,1,2,3,4,5,6,7' \
+    --text_option 1 \
+    --color_space 'RGB'
