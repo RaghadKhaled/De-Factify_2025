@@ -1,1 +1,14 @@
-
+ftfy
+regex
+tqdm
+cv2
+python==3.10.15
+numpy==1.24.3
+torch==1.12.1
+torchvision==0.13.1
+importlib
+PIL
+albumentations
+matplotlib
+sklearn
+kornia
