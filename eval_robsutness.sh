@@ -1,1 +1,14 @@
-
+python  /eval_robsutness_image_text.py \
+    --model 'RSID' \
+    --test_files_pathes '/annotations/test_set/without_transformations/TaskA.txt' \
+    --num_class 6 \
+    --batch_size 48 \
+    --data_size 448 \
+    --ckps '/checkpoints/RGB-T1.pt' \
+    --out_dir '/evaluation_results/robustness/' \
+    --out_file '/without_transformation/TaskA' \
+    --img_encoder 'RN50x64' \
+    --text_option 1 \
+    --task 'A' \
+    --transformation 'without' \
+    --method 'RGB'
