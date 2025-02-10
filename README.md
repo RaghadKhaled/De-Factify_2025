@@ -51,13 +51,7 @@ You can download the row data from:
 
 
 ## Training
-- You can train the model by running the? file for the first approach:
-```bash
-sh train.sh
-```
-
-and the? file for the second approach:
-
+- You can train the model by running following command:
 ```bash
 sh train.sh
 ```
@@ -66,14 +60,13 @@ The parameters values in `train.sh` file are as following:
 
 - `A`: ..... (default: 2).
 - `B`: '...'.
+- `C`: file .py for the first approach and file .py for the second approach.
 
 ## Evaluation
 
 ### Rosbutness evaluation
 
-**image-text strategy**<br>
-
-- You can evaluate the model using image-text inference strategy by running the following command:
+- You can evaluate the model by running the following command:
 ```bash
 sh evaluate.sh
 ```
@@ -82,29 +75,7 @@ The parameters values in `evaluate.sh` file are as following:
 
 - `A`: ..... (default: 2).
 - `B`: '...'.
-
-**NN strategy**<br>
-
-- You can evaluate the model using NN inference strategy by running the following command:
-```bash
-sh evaluate.sh
-```
-
-The parameters values in `evaluate.sh` file are as following:
-
-- `A`: ..... (default: 2).
-- `B`: '...'.
-
-**RF strategy**<br>
-- You can evaluate the model using RF inference strategy by running the following command:
-```bash
-sh evaluate.sh
-```
-
-The parameters values in `evaluate.sh` file are as following:
-
-- `A`: ..... (default: 2).
-- `B`: '...'.
+- `C`: file .py for the image-text strategy, file .py for the NN strategy, and file .py for the RF strategy.
 
 ### Generalization evaluation
 .....
