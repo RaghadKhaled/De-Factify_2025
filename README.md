@@ -21,7 +21,7 @@
 
 
 ## Overview
-This repository will contain the official code for the **Beyond RGB: Exploring Alternative Color Spaces for Robust Synthetic Image Detection** submission to **Fourth Workshop on Multimodal Fact-Checking and Hate Speech Detection** Workshop 2025 at AAAI. Our project is organized into three main folders, ...
+This repository will contain the official code for the **Beyond RGB: Exploring Alternative Color Spaces for Robust Synthetic Image Detection** submission to **Fourth Workshop on Multimodal Fact-Checking and Hate Speech Detection** Workshop 2025 at AAAI.
 
 
 ## Environment Setup
