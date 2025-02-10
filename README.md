@@ -4,8 +4,6 @@
 
 [[Paper](https://)] [[HuggingFace Model](https://)]
 
-## Architecture figure ##
-
 
 ## Contents
 
